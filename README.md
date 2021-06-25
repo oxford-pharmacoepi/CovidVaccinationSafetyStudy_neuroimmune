@@ -1,4 +1,4 @@
-CovidVaccinationSafetyStudy
+CovidVaccinationSafetyStudyMyocarditisPericarditis
 ========================================================================================================================================================
 
 <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available">
