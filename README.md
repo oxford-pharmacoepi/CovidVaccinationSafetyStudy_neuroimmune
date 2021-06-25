@@ -3,8 +3,6 @@ CovidVaccinationSafetyStudy
 
 <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available">
 
-- Results explorer: **[ShinyApp](https://livedataoxford.shinyapps.io/CovidVaccinationSafetyStudy/)**
-
 ## Running the analysis
 1) Download this entire repository (you can download as a zip folder using Code -> Download ZIP, or you can use GitHub Desktop). 
 2) Open the project <i>CovCoagBackgroundIncidence.Rproj</i> in RStudio (when inside the project, you will see its name on the top-right of your RStudio session)
