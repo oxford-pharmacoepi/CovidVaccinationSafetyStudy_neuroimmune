@@ -36,17 +36,11 @@ oracleTempSchema<-NULL
 # If you haven´t already, save database details to .Renviron by running:
 # usethis::edit_r_environ()
 
-# p20_000211_cdm_aurum is db with vaccinated cohorts 
-# p20_059_cdm_aurum is db with covid cohorts 
-# cdmgold202007 with general population
-server<-Sys.getenv("DB_SERVER_p20_000211_cdm_aurum")
-server_dbi<-Sys.getenv("DB_SERVER_p20_000211_cdm_aurum_dbi")
 
-server<-Sys.getenv("DB_SERVER_p20_059_cdm_aurum")
-server_dbi<-Sys.getenv("DB_SERVER_p20_059_cdm_aurum_dbi")
+server<-Sys.getenv("")
+server_dbi<-Sys.getenv("")
 
-server<-Sys.getenv("DB_SERVER_cdmgold202007")
-server_dbi<-Sys.getenv("DB_SERVER_cdmgold202007_dbi")
+
 
 user<-Sys.getenv("DB_USER")
 password<- Sys.getenv("DB_PASSWORD")
@@ -81,7 +75,7 @@ results_database_schema<-"results"
 # This is the name of the schema where a results table will be created 
 
 cohortTableExposures<-"CovVaxExposures"
-cohortTableOutcomes <-"CovVaxOutcomes_myoc"
+cohortTableOutcomes <-"CovVaxOutcomes"
 cohortTableProfiles<-"CovVaxProfiles"
 # These are the tables to be created in your results schema for this analysis
 # You can keep the above names or change them
@@ -89,7 +83,7 @@ cohortTableProfiles<-"CovVaxProfiles"
 
 
 
-db.name<-"CPRD AURUM"
+db.name<-"your database name"
 # This is the name/ acronym for your database (to be used in the titles of reports, etc) 
 
 create.outcome.cohorts<-TRUE #FALSE    #  TRUE
