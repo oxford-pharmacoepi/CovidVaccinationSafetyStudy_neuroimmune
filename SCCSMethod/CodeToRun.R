@@ -127,6 +127,9 @@ run.main.analysis <- TRUE  # Main analysis : require 1 yr observation prior to i
 run.sens1 <- FALSE  # Sensitivity analysis 1: NOT require 1 yr observation prior to index date
 run.sens2 <- FALSE  # Sensitivity analysis 2: Require 1 yr observation prior to index date AND 28 days post-vaccination.
 
+# se the vaccine cohort used for analysis. Use the same name as the SQL files. 
+pfizer_cohort_name = "Pfizer_req_obs_1y"
+AZ_cohort_name = "AZ_req_obs_1y"
 
 # run the analysis
 startAll<-Sys.time()

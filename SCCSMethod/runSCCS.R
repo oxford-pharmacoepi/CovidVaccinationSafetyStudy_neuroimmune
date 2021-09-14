@@ -136,8 +136,8 @@ print(temp.table)
 
 #### select exposure id ########
 if(run.main.analysis=="TRUE"){
-  PF_exposureid <- vaccinated.cohorts %>% filter(name == "Pfizer_req_obs_1y" ) %>% select(id)  ##### SELECT the exposure cohort to run on #####
-  AZ_exposureid <- vaccinated.cohorts %>% filter(name == "AZ_req_obs_1y" ) %>% select(id)
+  PF_exposureid <- vaccinated.cohorts %>% filter(name == pfizer_cohort_name ) %>% select(id)  ##### SELECT the exposure cohort to run on #####
+  AZ_exposureid <- vaccinated.cohorts %>% filter(name == AZ_cohort_name ) %>% select(id)
   output.folder <- paste0(output.folder.name, "/MainAna")
   print("Running the main analysis... ")
 
