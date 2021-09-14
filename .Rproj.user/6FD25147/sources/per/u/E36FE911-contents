@@ -1,0 +1,7 @@
+conn <-  connect(connectionDetails)
+
+sql <-  " select distinct  cohort_definition_id from results.CovVaxOutcomes_XL_aesibmj;"
+
+
+querySql(conn,sql)
+
