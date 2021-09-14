@@ -1,13 +1,11 @@
-CovidVaccinationSafetyStudy
+VaxSafetySCCS
 ========================================================================================================================================================
 
-<img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available">
 
-- Results explorer: **[ShinyApp](https://livedataoxford.shinyapps.io/CovidVaccinationSafetyStudy/)**
 
 ## Running the analysis
 1) Download this entire repository (you can download as a zip folder using Code -> Download ZIP, or you can use GitHub Desktop). 
-2) Open the project <i>CovCoagBackgroundIncidence.Rproj</i> in RStudio (when inside the project, you will see its name on the top-right of your RStudio session)
+2) Open the project <i>VaxSafetySCCS.Rproj</i> in RStudio (when inside the project, you will see its name on the top-right of your RStudio session)
 3) Open the <i>CodeToRun.R</i> file which should be the only file that you need to interact with, comments with instructions are in that file but here are some further things to note:
 <li> Run <i>renv::activate()</i> and <i>renv::restore()</i> to bring in the required packages to be used</li> 
 <li> <i>outputFolder <- "...."</i>: the path to a folder (that exists) where the results from this analysis will be saved</li> 
